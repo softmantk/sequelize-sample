@@ -3,6 +3,7 @@
 /**
  * Module dependencies.
  */
+const db = require('../models')
 
 var app = require('../app');
 var debug = require('debug')('seq:server');
